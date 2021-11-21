@@ -1,0 +1,174 @@
+
+@media screen and (max-width: 1600px) {
+    .h-w2 .container {width: 90%;}
+}
+@media screen and (max-width: 992px) {
+.h-w2 .container {width: 90%;}
+.st-dv img {width: 70px;height: 70px;}
+.st-dv {padding: 27px 15px;}
+footer .row .col.s2 {width: 100%;margin-bottom: 50px;}
+footer .row .col.s6 {width: 100%;}
+.col-lft {padding-left: 0;padding-right: 15px;}
+.col-rht {padding-left: 0;padding-right: 15px;}
+footer .row .col.s4 {width: 100%;margin-top: 50px;}
+
+}
+@media screen and (max-width: 1023px) {
+.navWrapper {position: static;background: url('../img/blueb-full.jpg')repeat 0 0;background-size: cover; }
+.topbar {z-index: 100;}
+.container.bellContainer {top: -71px;z-index: 0;}
+.fixed .linkA {
+        top: 0px;
+left: 28px;
+    }
+}
+
+@media screen and (max-width: 991px){
+.linkB {position: absolute;right: 50px;top: 10px;}
+.lnkReg, .linkC {padding-right: 50px;}
+nav a.sidenav-trigger {height: 31px;line-height: 31px;background: var(--pink-color);border-radius:5px;align-self: center;display: flex;justify-content: center;width: 31px;}
+nav a.sidenav-trigger i {font-size: 25px;line-height: 30px;height: 30px;vertical-align: middle;margin: 0;color: var(--white-color);}
+.sidenav {padding-top: 30px ;background: var(--pink-color);}
+.sidenav li>a {height: 40px;line-height: 40px;color: var(--white-color);padding-right: 0;}
+.navscrolled .lnkReg, .navscrolled .linkC, .fixed .lnkReg, .fixed .linkC  {display: none;}
+.navscrolled .linkC.sideLink, .fixed .linkC.sideLink {display: flex; justify-content: center;padding: 0;align-items: center;justify-content: center;}
+.navscrolled .linkC.sideLink .lgDvs, .fixed .linkC.sideLink .lgDvs {margin: 0;padding: 0;}
+.linkC.sideLink a {color: var(--white-color);}
+.linkC.sideLink  .lgDvs:before {display: none;}
+.h-lnks a {margin-left: 20px;}
+.h-lnks {padding-left: 12px;}
+.linkC.sideLink {flex-direction: column;}
+.linkC.sideLink .homeLnk {display: flex;justify-content: center;align-items: center;background: #fff;}
+.linkC.sideLink .homeLnk i {color: var(--pink-color);}
+.linkC.sideLink .registerBtn {background: transparent;border: none;}
+.topbar p {
+        line-height: 19px;
+        text-align: left;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+ h2 {font-size: 23px;}
+.closebtns {display: block;position: absolute;right: 10px;top: 8px;cursor: pointer;background: var(--white-color);border: none;opacity: 0.6;font-size: 12px;width: 20px;
+    height: 20px;border-radius: 50%;padding: 0 4px;}
+.closebtns i {color: var(--blue-color);font-size: 15px;}
+nav .nav-wrapper {position: relative;height: 100%;padding: 40px 0;}
+#nav-mobile li {margin-bottom: 18px;}
+nav .nav-wrapper hr {border-color: #3A4F9B;opacity: 1;}
+nav .nav-wrapper i {height: auto;line-height: 1;}
+.nav-wrapper .container {width: 100%;}
+.mbs-logo {color: #fff;display: block;margin-bottom: 18px;}
+.m-div {margin-bottom: 15px;}
+.m-div i.fa-phone {transform: rotate(90deg);font-size: 15px;}
+.m-div i.fa-envelope {font-size: 15px;}
+.mobile-logo {display: block;text-align: center;}
+nav.slideOn {display: block;transform: translateX(300px);transition-duration: 0.45s;}
+nav {height: auto;}
+nav.slideOn #nav-mobile {display: block;}
+#nav-mobile li {display: block;padding: 0;}
+.swipeUl .tab a {font-size: 15px;}
+.tabs.smalltabs li.col.s3 {margin-right: 5px;}
+.tabs.smalltabs li.col.s3 a {padding: 0 8px;}
+.formDv {padding: 6px 5px 19px;top: 0px;margin: 0 2px;}
+.mobileMenu {display: inline-block;background: #ba1e74;align-self: center;padding: 1px 14px;font-size: 23px;border-radius: 6px;color: #fff;text-align: right;position: absolute;
+    top: 37px;right: 170px;}
+#nav-mobile { display: none;}
+.linkB a {margin-left: auto;margin-right: auto;}
+.border-btn {padding: 4px 12px;font-size: 13px;letter-spacing: -0.063em;}
+.lnkIn .registerBtn {padding: 4px 13px;text-align: center;}
+footer h3 {font-size: 15px;}
+.copy {font-size: 12px;}
+.lnkIn {display: flex;flex-direction: column;justify-content: flex-end;}
+   
+}
+@media screen and (max-width: 700px){
+.sp1 em {
+    width: 100%;
+}
+.unitTop {
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+    width: 100%;
+}
+}
+@media screen and (max-width: 650px) { 
+.colD {display:block;width: 100%;text-align: center;}
+.colD-Left ul {justify-content: center;}
+.colD-Left {margin-bottom: 50px;}
+.colD-Right {max-width: none}
+.colD-Right ul {display: flex;width: 100%;justify-content: center;}
+.mobileMenu {right: 140px;}
+}
+
+@media screen and (max-width: 600px) { 
+ .colD-Right {flex: 0 0 100%;max-width: 100%;}
+
+}
+@media screen and (max-width: 400px) {
+.navscrolled .mobileMenu {padding: 1px 12px;font-size: 18px;top: 10px;right: 150px;}
+.fixed .mobileMenu {padding: 1px 12px;font-size: 18px;top: 10px;right: 150px;}
+.linkB {right:35px;}
+}
+@media screen and (max-width: 500px) {
+    h2 {font-size: 25px;}
+}
+@media screen and (max-width: 600px) {
+.linkWrapper {flex-wrap: wrap;}
+.lnkReg, .linkC {padding-right: 0;justify-content: space-between;flex: 0 0 100%;max-width: 100%;}
+.lgDvs {flex-direction: row ;}
+.lgDvs:before {display: none;}
+}
+@media only screen and (max-width: 600px){
+.container {width: 97% !important;}
+.topbar .container {width: 92% !important ;}
+.priv-links li a {font-size: 14px;}
+.linkB {right: 10px;}
+}
+@media only screen and (max-width: 360px){
+.colD-Left li {margin-right: 5px;}
+}
+
+/*========================
+RESPONSIVE OF LOGIN MODAL
+=========================*/
+
+@media only screen and (max-width:991px){
+.modal.modal-register {max-width: 700px;}
+ .form .form-peice {width: 116%;padding: 30px;}
+ .col.s5.brand {padding: 29px 25px ;}
+.fundaiqRegDv .input-field {margin: 5px 0;}
+.brand .brand-text h2 {font-size: 20px;}
+.modal .bdrbtn, .form form .CTA a.switch.registerMbtn {font-size: 15px;padding: 6px 10px 5px;}
+.loginMbtn {font-size: 15px;padding: 10px 10px 11px;}
+.modal .createbtn {padding:9px 10px 10px ;}
+.modal .travelAgentText {margin-top: 10px;padding: 15px;}
+.modal.modal-register.modalPass {padding: 20px 53px 10px;}
+}
+
+
+
+@media only screen and (max-width:730px){
+.modal.modal-register {max-width: 600px;} 
+.form .form-peice {padding: 18px;width: 119%;}
+.proflmg img {height: 120px;width: 100%;margin: 0 auto;object-fit: contain;}
+.modal h2 {font-size: 20px;}
+.col.s5.brand {padding: 18px;}
+}
+
+@media only screen and (max-width:600px){ 
+
+.modal.modal-register {width: 90%;} 
+.col.s5.brand {display: none;}
+#formHolder .col.s7.form {width: 100%;padding: 0;}
+.form .form-peice {width: 100%;margin-left: 0;left: 0;}
+.modal.modal-register.modalPass {padding: 20px 15px 10px;}
+
+ 
+
+}
+
+
+/*=============================
+RESPONSIVE OF LOGIN MODAL END
+==============================*/ 

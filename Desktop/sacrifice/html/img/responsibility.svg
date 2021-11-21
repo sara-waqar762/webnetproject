@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.887" height="131.971" viewBox="0 0 136.887 131.971">
+  <defs>
+    <filter id="Icon_awesome-leaf" x="38.293" y="0" width="98.595" height="94.86" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-leaf-2" x="31.576" y="22.475" width="47.205" height="49.909" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13270" x="0" y="70.147" width="130.524" height="61.824" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3190" data-name="Group 3190" transform="translate(9 6)">
+    <g id="Group_3189" data-name="Group 3189" transform="translate(31.577 0)">
+      <g transform="matrix(1, 0, 0, 1, -40.58, -6)" filter="url(#Icon_awesome-leaf)">
+        <path id="Icon_awesome-leaf-3" data-name="Icon awesome-leaf" d="M60.277,1.073A1.717,1.717,0,0,0,57.153.941,18.926,18.926,0,0,1,40.609,10.6H31.78A21.2,21.2,0,0,0,10.589,31.788a21.822,21.822,0,0,0,.166,2.263c7.041-5.044,17.206-9.326,31.62-9.326a1.766,1.766,0,0,1,0,3.532c-27.746,0-39.512,17.008-42.116,23.4A3.537,3.537,0,0,0,6.8,54.336a29.036,29.036,0,0,1,7.935-10,21.144,21.144,0,0,0,19.3,8.52C51.37,51.6,63.566,36.06,63.566,17.032A40.134,40.134,0,0,0,60.277,1.073Z" transform="translate(47.29 30.84) rotate(-23)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -40.58, -6)" filter="url(#Icon_awesome-leaf-2)">
+        <path id="Icon_awesome-leaf-4" data-name="Icon awesome-leaf" d="M27.161.484a.774.774,0,0,0-1.407-.06A8.528,8.528,0,0,1,18.3,4.776H14.32a9.551,9.551,0,0,0-9.549,9.549,9.833,9.833,0,0,0,.075,1.02,23.794,23.794,0,0,1,14.248-4.2.8.8,0,1,1,0,1.591c-12.5,0-17.8,7.664-18.978,10.543a1.594,1.594,0,0,0,2.949,1.209,13.084,13.084,0,0,1,3.576-4.506,9.528,9.528,0,0,0,8.7,3.839c7.808-.567,13.3-7.569,13.3-16.143A18.085,18.085,0,0,0,27.161.484Z" transform="matrix(0.14, -0.99, 0.99, 0.14, 40.58, 56.84)" fill="#fff"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_13270)">
+      <path id="Path_13270-2" data-name="Path 13270" d="M145.423,295.629c-6,.337-11.4-1.644-16.624-4.293-1.516-.776-3.056-1.5-4.591-2.226a2.191,2.191,0,0,0-1.043-.33,1.423,1.423,0,0,0-.962.539,1.527,1.527,0,0,0,.019,1.016,1,1,0,0,0,.423.481c3.595,2.536,7.166,5.15,11.478,6.348a47.275,47.275,0,0,0,14.635,1.419c4.165-.171,7.911-1.629,11.634-3.277,8.76-3.878,17.551-7.729,26.234-11.789a9.574,9.574,0,0,1,7.674-.667,5.22,5.22,0,0,1,3.75,4.525,5.562,5.562,0,0,1-2.548,5.782c-7.3,4.591-14.538,9.245-22.274,13.049a108.263,108.263,0,0,1-23.415,8.76,21.37,21.37,0,0,1-10.812-.5q-12.8-3.618-25.621-7.263a11.539,11.539,0,0,0-7.636.19c-2.129.834-4.266,1.625-6.426,2.424a7.522,7.522,0,0,1-4.184.516c-2.8-.558-4.165-2.5-4.809-5.084-1.028-4.142-2-8.3-2.99-12.452-.52-2.164-1.07-4.324-1.551-6.5-.826-3.878.942-6.79,4.774-7.725,8.054-1.962,16.132-3.827,24.19-5.774a30.208,30.208,0,0,1,9.082-1.136,16,16,0,0,1,10.373,4.421,18.642,18.642,0,0,0,11.583,5.08c2.68.264,5.371.388,8.062.547a5.7,5.7,0,0,1,5.526,5.185c.112.919.194,1.846.221,2.773a3.856,3.856,0,0,1-2.466,3.878,20.9,20.9,0,0,1-7.166,1.8C148.455,295.478,146.939,295.536,145.423,295.629Z" transform="translate(-76.59 -195.48)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

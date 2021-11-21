@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.888" height="119.82" viewBox="0 0 136.888 119.82">
+  <defs>
+    <filter id="Subtraction_5" x="32.671" y="0" width="58.128" height="71.275" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_6" x="72.627" y="0" width="57.956" height="71.275" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13267" x="0" y="55.517" width="136.888" height="64.302" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3182" data-name="Group 3182" transform="translate(9 -3.84)">
+    <g id="Group_3181" data-name="Group 3181" transform="translate(32.671 9.84)">
+      <g transform="matrix(1, 0, 0, 1, -41.67, -6)" filter="url(#Subtraction_5)">
+        <path id="Subtraction_5-2" data-name="Subtraction 5" d="M26.637,53.275a26.834,26.834,0,0,1-5.368-.541,26.491,26.491,0,0,1-9.525-4.008,26.715,26.715,0,0,1-9.651-11.72,26.5,26.5,0,0,1-1.552-5,26.9,26.9,0,0,1,0-10.737,26.492,26.492,0,0,1,4.008-9.525,26.715,26.715,0,0,1,11.72-9.651,26.5,26.5,0,0,1,5-1.552,26.853,26.853,0,0,1,12.667.471,26.508,26.508,0,0,1,6.019,2.551,26.789,26.789,0,0,0-9.645,9.567,26.622,26.622,0,0,0,0,27.014,26.787,26.787,0,0,0,9.645,9.566,26.509,26.509,0,0,1-13.319,3.564Zm13.329-3.569.162-.095Z" transform="translate(41.67 6)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -41.67, -6)" filter="url(#Subtraction_6)">
+        <path id="Subtraction_6-2" data-name="Subtraction 6" d="M13.319,53.275A26.509,26.509,0,0,1,0,49.711a26.789,26.789,0,0,0,9.645-9.567,26.5,26.5,0,0,0,2.712-6.39,26.7,26.7,0,0,0,.961-7.117,26.7,26.7,0,0,0-.961-7.117,26.5,26.5,0,0,0-2.712-6.39A26.788,26.788,0,0,0,0,3.564,26.518,26.518,0,0,1,13.319,0a26.834,26.834,0,0,1,5.368.541,26.491,26.491,0,0,1,9.525,4.008,26.785,26.785,0,0,1,7.195,7.195,26.491,26.491,0,0,1,4.008,9.525,26.9,26.9,0,0,1,0,10.737,26.491,26.491,0,0,1-4.008,9.525,26.715,26.715,0,0,1-11.72,9.651,26.5,26.5,0,0,1-5,1.552A26.834,26.834,0,0,1,13.319,53.275Z" transform="translate(81.63 6)" fill="#fff"/>
+      </g>
+      <g id="Group_3192" data-name="Group 3192" transform="translate(26.372 2.734)">
+        <line id="Line_583" data-name="Line 583" x2="27.166" y2="8.997" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_583-2" data-name="Line 583" x2="27.166" y2="8.997" transform="translate(0 7.586)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_583-3" data-name="Line 583" x2="27.166" y2="8.997" transform="translate(0 15.171)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_583-4" data-name="Line 583" x2="27.166" y2="8.997" transform="translate(0 22.756)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_583-5" data-name="Line 583" x2="27.166" y2="8.997" transform="translate(0 30.342)" fill="none" stroke="#fff" stroke-width="3"/>
+        <line id="Line_583-6" data-name="Line 583" x2="27.166" y2="8.997" transform="translate(0 37.927)" fill="none" stroke="#fff" stroke-width="3"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, 3.84)" filter="url(#Path_13267)">
+      <path id="Path_13267-2" data-name="Path 13267" d="M148.806,296.987c-6.342.356-12.042-1.737-17.564-4.536-1.6-.819-3.229-1.582-4.851-2.352a2.315,2.315,0,0,0-1.1-.348,1.5,1.5,0,0,0-1.016.57,1.613,1.613,0,0,0,.02,1.073,1.061,1.061,0,0,0,.447.508c3.8,2.68,7.572,5.441,12.128,6.707a49.948,49.948,0,0,0,15.463,1.5c4.4-.18,8.358-1.721,12.291-3.462,9.255-4.1,18.544-8.166,27.717-12.455a10.115,10.115,0,0,1,8.108-.7,5.515,5.515,0,0,1,3.962,4.781,5.877,5.877,0,0,1-2.692,6.109c-7.711,4.851-15.36,9.768-23.534,13.787a114.382,114.382,0,0,1-24.739,9.255,22.579,22.579,0,0,1-11.423-.533q-13.521-3.823-27.07-7.674a12.191,12.191,0,0,0-8.067.2c-2.249.881-4.507,1.717-6.789,2.561a7.947,7.947,0,0,1-4.421.545c-2.954-.59-4.4-2.639-5.08-5.371-1.086-4.376-2.11-8.768-3.159-13.156-.549-2.286-1.131-4.568-1.639-6.867-.873-4.1,1-7.174,5.044-8.162,8.51-2.073,17.044-4.044,25.558-6.1a31.917,31.917,0,0,1,9.6-1.2,16.9,16.9,0,0,1,10.96,4.671,19.7,19.7,0,0,0,12.238,5.367c2.831.279,5.675.41,8.518.578a6.023,6.023,0,0,1,5.838,5.478c.119.971.2,1.95.234,2.929a4.074,4.074,0,0,1-2.606,4.1,22.084,22.084,0,0,1-7.572,1.9C152.01,296.827,150.408,296.889,148.806,296.987Z" transform="translate(-76.59 -210.11)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    height: 100%;
+}
+:root {
+--text-color:#707070;
+--blue-color: #2A3A73;
+--pink-color: #BA1E74;
+--white-color:#fff;
+--green-color:#24B3BA;
+--white-color:#fff;
+}
+h1 {
+font-size: 40px;
+font-weight: 600;
+color:var(--text-color);
+}
+h2 {
+font-size: 30px;
+font-weight: 600;
+color:var(--blue-color);
+}
+h3 {
+font-size: 20px;
+font-weight: 500;
+color:var(--text-color);
+}
+h4 {
+font-size: 40px;
+font-weight: 500;
+color:var(--text-color);
+}
+h5 {
+font-size: 40px;
+font-weight: 500;
+color:var(--text-color);
+}
+h6 {
+font-size: 40px;
+font-weight: 500;
+color:var(--text-color);
+}
+body {
+color:var(--text-color);
+font-size: 14px;
+font-family: 'Poppins', sans-serif;                        
+}
+.topbar {
+    background:var(--blue-color);
+    text-align: center;
+    padding: 0px 0;
+        position: relative;
+    z-index: 10;
+    top: 0px;
+}
+.topbar p {
+        padding-top: 2px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    color: var(--white-color);
+    font-size: 11px;
+    line-height: 38px;
+    max-width: 770px;
+    min-height: 30px;
+}
+.topbar a {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+.sp1 {
+    padding-right: 12px;
+}
+.topbar .container {
+    position: relative;
+}
+.sp1 em {
+	font-style: normal;
+	float: left;
+    width: calc(100% - 269px);
+}
+.sp1 em span {
+	padding-left: 10px;
+}
+.sp1 strong {
+	float: left;
+	margin-left: 2px;
+}
+.sp1 strong span {
+	float: left;
+    padding-right: 11px;
+}
+.sp1 a {
+	float: left;
+}
+.sp1 b {
+	float: left;
+}
+.sp1 a img {
+	position: relative;
+    top: 7px;
+    float: left;
+    margin-left: 11px;
+}
+.unitTop {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 4px;
+}
+.langD {
+    margin-left: 30px;
+}
+select {
+    background-color: transparent;
+    width: auto;
+    padding: 2px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    height: 30px;
+    display: inline-block;
+    color: var(--white-color);
+    border: none;
+    font-size: 13px;
+    background: url('../img/arrow.png')no-repeat right 13px;
+    padding-right: 17px;
+    background-size: 12px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor:pointer;
+}
+select:focus {
+    outline: 0;
+    border: none;
+}
+.bannerS {
+    position: relative;
+    background: url(../img/banner-bg.webp)no-repeat 0 0;
+    background-size: cover;
+    height: 100%;
+        padding-top: 2px;
+}
+.h-w2 {
+    padding: 19px 0 6px;
+    position: relative;
+}
+.linkWrapper {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    justify-content: space-between;
+}
+.linkA {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.border-btn {
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid var(--white-color);
+    border-radius: 30px;
+    padding:6px 22px;
+    color: var(--white-color);
+    display: inline-block;
+}
+.linkB a {
+    display: inline-block;
+    margin-left: 24px;
+}
+.lnkReg, .linkC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lnkIn .registerBtn {
+    margin-left: 24px;
+}
+.loginBtn {
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid var(--pink-color);
+    border-radius: 30px;
+    padding:5px 19px;
+    color: var(--pink-color);
+    display: inline-block;
+    letter-spacing: 0.21em;
+    background: var(--white-color);
+    text-transform: uppercase;
+}
+.registerBtn {
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid var(--white-color);
+    background: var(--blue-color);
+    border-radius: 30px;
+    padding: 5px 19px;
+    color: var(--white-color);
+    display: inline-block;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+}
+nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+.center li {
+    float: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.center li.dealsli {
+	padding-right: 36px;
+}
+.dealsli a {
+	background: url('../img/deals.svg')no-repeat right 5px;
+	padding-right: 15px!important;
+}
+.center li:first-child {
+    padding-left: 0;
+}
+.center li:last-child {
+    padding-left: 0;
+}
+.center li a {
+    font-size: 15px;
+    color: var(--white-color);
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    line-height: 2;
+}
+.center li a:hover {
+    background-color: transparent;
+}
+.center li a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px var(--pink-color);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.center li a:hover:after,
+.center li a.active:after { 
+    transform: scaleX(1); 
+}
+.bookBox .container {
+    width: 1012px;
+}
+.bookBox em {
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--blue-color);
+}
+.bookBox {
+    position: relative;
+    z-index: 1000;
+    animation: 1s ease-out 0s 1 fadeInDown;
+    padding-top: 36px;
+}
+.book-inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.book-inner p {
+	font-size: 13px;
+    min-height: 57px;
+    margin-bottom: 0;
+    padding: 0 5px;
+}
+.bookYourself h2 {
+    font-size: 52px;
+    margin-bottom: 21px;
+    line-height: 1.3;
+}
+.ct-img {
+    margin-bottom: 30px;
+}
+.bookYourself {
+    width: 46%;
+    text-align: center;
+    padding: 20px 36px;
+    background: #fff;
+    border-radius: 30px;
+    padding-bottom: 58px;
+    display: inline-block;
+    vertical-align: top;
+}
+.indi-btn {
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid var(--green-color);
+    background: var(--green-color);
+    border-radius: 30px;
+    padding: 12px 49px;
+    color: var(--white-color);
+    display: inline-block;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    align-self: center;
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+html {
+    overflow: hidden;
+}
+.bookBox {
+        height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bookClient {
+    width: 46%;
+    text-align: center;
+    padding: 20px 42px;
+    background: #fff;
+    border-radius: 30px;
+    padding-bottom: 58px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookClient .ct-img {
+    margin-bottom: 0;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.bookClient .ct-img img {
+    align-self: center;
+    position: relative;
+    top: -10px;
+}
+.bookClient em {
+    color: var(--pink-color);
+}
+.bookClient h2 {
+    font-size: 52px;
+    line-height: 1.3;
+    color: var(--pink-color);
+}
+.trv-btn {
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid var(--pink-color);
+    background: transparent;
+    border-radius: 30px;
+    padding: 12px 49px;
+    color: var(--pink-color);
+    display: inline-block;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    align-self: center;
+}
+.continuD {
+    min-height: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+.landingDv {
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1684px) {
+	.bookBox .container {
+        width: 960px;
+    }
+}
+@media screen and (max-width: 1600px) { 
+    .container {
+        width: 88%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .bookBox em {
+        font-size: 20px;
+    }
+    .bookBox .container {
+        width: 860px;
+    }
+    .bookYourself {
+        padding:20px 15px;
+    }
+    .bookClient {
+        padding:20px 15px 58px;
+    }
+    .bookYourself h2,.bookClient h2  {
+        font-size: 45px;
+        margin-bottom: 6px;
+    }
+}
+@media screen and (max-width: 1400px) { 
+    .langD {
+        margin-left: 6px;
+    }
+    .bookBox .container {
+        width: 838px;
+    }
+    .indi-btn {
+        padding: 12px 42px;
+    }
+    .trv-btn {
+        padding: 12px 42px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .bookBox .container {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .bookBox .container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	.sp1 em {
+	    width: calc(100% - 137px);
+    }
+    .unitTop {
+		display: flex;
+		justify-content: flex-end;
+		position: static;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 991px) {
+	.sp1 em {
+		width: calc(100% - 387px);
+	}
+    .topbar {
+        padding-bottom: 12px;
+    }
+	.sp1 a img {
+		top: 3px;
+	}
+	.topbar p {
+		line-height: 19px;
+		text-align: left;
+		margin: 0;
+	}
+    .lnkIn .registerBtn {
+        margin-left: 4px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .linkWrapper {
+        flex-direction: column;
+    }
+    .linkA {
+            position: absolute;
+    right: 8px;
+    top: 10px;
+    }
+    .linkC {
+           position: absolute;
+    right: 9px;
+    top: 50px;
+    }
+
+    .h-w2 {
+        top: -92px;
+            position: fixed;
+    top: 3px;
+    width: 100%;
+    }
+    .bookBox{
+        padding-top: 220px; 
+    }
+    .lnkIn {
+        
+     }
+    .loginBtn {
+        align-self: center;
+        margin-bottom: 7px;
+        padding:5px 10px;
+            width: 111px;
+    text-align: center;
+    }
+    .lnkIn .registerBtn {
+        align-self: center;
+        padding: 5px 10px;
+            width: 117px;
+    text-align: center;
+    }
+    .border-btn {
+        font-size: 13px;
+        padding: 4px 12px;
+    }
+    .linkB a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .trv-btn {
+    padding: 12px 15px;
+}
+.indi-btn {
+    padding: 12px 15px;
+}
+    .bannerS {
+        padding-top: 82px;
+    }
+    .topbar {
+        display: none;
+    }
+	.bookYourself {
+		margin-bottom: 40px;		
+		width: 100%;
+	}
+	.book-inner {
+		display: flex;
+	}
+    .bookYourself{
+        margin-right: 24px;
+            height: 390px;
+    }
+    .bookClient {
+        height: 390px;
+    }
+    .bookBox {
+        height: 16vh;
+    }
+    .bookBox .container {
+        width: 94%;
+    }
+	.bookClient {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 650px) {
+    .bookYourself h2, .bookClient h2{
+        font-size: 22px;
+    }
+    .bookYourself {
+    padding: 3px 3px;
+    margin-right: 8px;
+    width: 50%;
+    height: 319px;
+}
+.linkB img {
+    width: 85px;
+    margin-top: -7px;
+}
+.bookBox {
+    padding-top: 180px;
+}
+.trv-btn {
+    padding: 8px 11px;
+    letter-spacing: 0;
+    align-self: center;
+    font-size: 10px;
+}
+.indi-btn {
+    padding: 8px 11px;
+    font-size: 11px;
+    letter-spacing: 0;
+}
+.bookBox em {
+    font-size: 12px;
+}
+.book-inner p {
+    font-size: 10px;
+}
+.bookClient {
+    width: 50%;
+    height: 319px;
+    padding: 3px;
+}
+
+    .bookBox em {
+      
+    }
+    .linkB img {
+        width: 85px;
+    }
+    .loginBtn {
+    align-self: center;
+    margin-bottom: 7px;
+    padding: 5px 7px;
+    width: 68px;
+    text-align: center;
+    font-size: 12px;
+}
+.lnkIn .registerBtn {
+    align-self: center;
+    padding: 5px 7px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+.center li {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.border-btn {
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+}
